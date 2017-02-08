@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/activity_main_header" />
+
+    <FrameLayout
+        android:id="@+id/fl_style_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true">
+
+        <com.docpoc.doctor.utils.RoundedImageView
+            android:id="@+id/img_drProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter" />
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_style_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        android:text="Dr. Constantin" />
+
+    <TextView
+        android:id="@+id/genral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dr_name"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_corner"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="Genral and Cosmatic Dermatalogist" />
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genral"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="4dp"
+                android:layout_weight="0.5"
+                android:singleLine="true"
+                android:text="Newyork, LA"
+                android:textColor="#ffffff"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/fee"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0.5"
+                android:singleLine="true"
+
+                android:text="Consulation Fee $20"
+                android:textColor="#ffffff"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll1"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="215dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_hader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:scrollbars="vertical"
+                        android:text="About the Doctor"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/txt_aboutme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:scrollbars="vertical"
+
+                        android:text="Dr. jack Murbach is a psyciatrist in the Mountain Brook. He studied from University of South Carolina School of Medicine and has been in practice for 32 years."
+                        android:textColor="#707070"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_below="@+id/scroll"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view13"
+                android:layout_weight="0.55"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="Availability"
+                    android:textColor="@android:color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="02:30 AM TO 5:30 PM"
+                        android:textColor="#707070"
+
+                        android:textSize="12dp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="06:30 PM TO 8:30 PM"
+                        android:textColor="#707070"
+
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.docpoc.doctor.utils.RoundedImageView
+        android:id="@+id/popup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ll1"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pink_add_button" />
+</RelativeLayout>
+

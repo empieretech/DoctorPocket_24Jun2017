@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include android:id="@+id/main_heder"
+        layout="@layout/activity_main_header"/>
+
+
+    <FrameLayout
+        android:id="@+id/fl_style_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/main_heder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <com.docpoc.doctor.utils.RoundedImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dr_about_03"
+            />
+
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_style_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Dr. Constantin"
+
+        android:id="@+id/dr_name"
+        />
+    <TextView   android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dr_name"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Booking Info"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_calendar_blue" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_time_grey" />
+
+    <TextView   android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@id/imageView3"
+        android:padding="5dp"
+        android:text="05;30 pm"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView   android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv_time"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="04 May"
+        android:textColor="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/linAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView   android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1.2"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Save $20 on your first consult and $15 for each referral!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp"
+            android:textColor="@color/grey_color"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linAmount"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvDiscountAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.2"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="$20"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvDiscountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.8"
+            android:gravity="left"
+
+            android:text="Reffer Discount"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_appointment_btn_payNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linDiscount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingTop="3dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#0FC9FC"
+        android:textSize="20dp"
+        android:text="CONFIRM $20"/>
+
+</RelativeLayout>

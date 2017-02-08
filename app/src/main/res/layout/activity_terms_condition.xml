@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen"
+    >
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        >
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin ="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_gravity="left|right"
+            android:text="@string/title_activity_term_condition"
+
+            />
+    </ScrollView>
+
+</RelativeLayout>

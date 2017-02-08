@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header" />
+
+    <com.docpoc.doctor.utils.RoundedImageView
+        android:id="@+id/imgUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:src="@drawable/profile_pic" />
+
+    <com.docpoc.doctor.utils.RobottoTextView
+        android:id="@+id/btnEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/imgUser"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        android:background="@drawable/edit_refer_rounded_border"
+        android:gravity="center"
+        android:text="   Edit Profile   "
+
+        android:textColor="@color/grey_color"
+
+        android:textSize="10dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEditProfile">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:weightSum="1">
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="Full Name"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="Age"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="Gender"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+
+                android:singleLine="true"
+                android:text="Address"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="Email"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="Phone"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="10dp"
+                android:background="#7F7F7F" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+
+                android:singleLine="true"
+                android:text="Country"
+                android:textColor="@color/medium_grey"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoEditTextView
+                android:id="@+id/etCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:editable="false"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_grey_color"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/ll12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/activity_pt_profile_et_pt_name"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@null"
+
+                android:paddingLeft="15dp"
+                android:text="Alia Bhutt"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:background="#0DC8FD" />
+
+            <EditText
+                android:id="@+id/activity_pt_profile_et_expe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:text="20 Yrs"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:background="#0DC8FD" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_style_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+
+                >
+
+
+                <com.docpoc.doctor.utils.RoundedImageView
+                    android:id="@+id/activity_pt_profile_iv_pt_Profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp" />
+
+
+                <ProgressBar
+                    android:id="@+id/pBar"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/activity_pt_profile_et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ll1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:hint="Gender"
+        android:paddingLeft="15dp"
+        android:textColor="#808080"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_below="@+id/activity_pt_profile_et_gender"
+        android:layout_marginTop="5dp"
+        android:background="#0DC8FD" />
+
+    <EditText
+        android:id="@+id/activity_pt_profile_et_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/view3"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:hint="Address"
+        android:paddingLeft="15dp"
+        android:textColor="#808080"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/activity_pt_profile_et_address"
+        android:layout_marginTop="7dp"
+        android:background="#0DC8FD" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/activity_pt_profile_et_email"
+        android:layout_marginTop="7dp"
+        android:background="#0DC8FD" />
+
+    <EditText
+        android:id="@+id/activity_pt_profile_et_mobliNo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/activity_pt_profile_et_address"
+        android:layout_below="@+id/v2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:paddingLeft="15dp"
+        android:text=""
+        android:textColor="#808080"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/activity_pt_profile_et_mobliNo"
+        android:layout_marginTop="7dp"
+        android:background="#0DC8FD" />
+
+
+    <Spinner
+        android:id="@+id/activity_pt_profile_spinner_time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/v3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/borde_login"
+        android:gravity="center"
+        android:hint="Update Profile"
+        android:padding="5dp"
+        android:textColorHint="#0FC9FC"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/activity_pt_profile_et_email"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/activity_pt_profile_et_mobliNo"
+        android:layout_alignStart="@+id/activity_pt_profile_et_mobliNo"
+        android:layout_below="@+id/v1"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:paddingLeft="15dp"
+        android:text="aliabhutt@hotmail.com"
+        android:textColor="#808080"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
+-->

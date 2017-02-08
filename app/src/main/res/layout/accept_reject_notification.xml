@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Pocket"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:textColor="@android:color/white"
+
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_signup"
+                android:padding="5dp"
+                android:id="@+id/btnAccept"
+                android:text="      Accept      "
+                android:textColor="@android:color/white" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/border_signup"
+                android:padding="5dp"
+                android:text="      Reject      "
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

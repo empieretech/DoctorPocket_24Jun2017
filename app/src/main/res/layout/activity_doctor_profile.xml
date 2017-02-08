@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen"
+    android:orientation="vertical">
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_send"
+        android:layout_below="@id/header">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/fl_style_pic"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+
+
+                        >
+
+
+                        <com.docpoc.doctor.utils.RoundedImageView
+                            android:id="@+id/activity_drProfile_iv_drProfile"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+
+
+                            />
+
+
+                        <ProgressBar
+                            android:id="@+id/pBar"
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/activity_drProfile_tv_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="5dp"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginLeft="98dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#1ec9ff" />
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/activity_drProfile_tv_speciality"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="115dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="#606060"
+                        android:textSize="10dp" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_marginLeft="97dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#1ec9ff" />
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/activity_drProfile_tv_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="95dp"
+                        android:layout_marginTop="10dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#606060"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginLeft="50dp"
+                android:background="#1ec9ff" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/activity_drProfile_tv_aboutMe"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:scrollbars="vertical"
+
+                android:textColor="#606060"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingBottom="100dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Doctor Fees"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/activity_drProfile_tv_fees"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/activity_drProfile_tv_timeZone"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Availability"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+
+                android:orientation="horizontal">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:id="@+id/activity_drProfile_tv_mornigStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+
+                android:orientation="horizontal">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:id="@+id/activity_drProfile_tv_mornigEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+
+
+                    android:gravity="left"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

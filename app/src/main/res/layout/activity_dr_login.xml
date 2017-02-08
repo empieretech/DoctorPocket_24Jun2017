@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/include1"
+       
+        android:layout_marginTop="120dp"
+       
+       >
+        
+        
+    <EditText
+        android:id="@+id/activity_dr_login_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/borderthin"
+        android:hint="Username (Email Id)"
+        android:padding="5dp"
+        android:textColorHint="#FFF"
+        android:textSize="20dp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress">
+    </EditText>
+    
+        <EditText
+        android:id="@+id/activity_dr_login_et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/activity_dr_login_et_email"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/activity_dr_login_et_email"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/borderthin"
+        android:hint="Password"
+        android:padding="5dp"
+        android:textColorHint="#FFF"
+        android:textSize="20dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/activity_dr_login_et_pwd"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/activity_dr_login_tv_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Forgot Fassword?"
+            android:textColor="#FFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/activity_dr_login_checkB_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@xml/custom_checkbox" />
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/activity_dr_login_tv_Terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/terms_condition"
+            android:textColor="#FFF"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <com.docpoc.doctor.utils.RobottoTextView
+        android:id="@+id/activity_dr_login_tv_logIn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/borde_login"
+        android:gravity="center"
+        android:hint="Log In"
+        android:padding="5dp"
+        android:textColorHint="#0FC9FC"
+        android:textSize="20dp" >
+    </com.docpoc.doctor.utils.RobottoTextView>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

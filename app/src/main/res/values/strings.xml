@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dr. Pocket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_pre_login">PreLogin</string>
+    <string name="title_activity_dr_login">DrLogin</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="terms_condition">Terms &amp; Conditions/Doctor Agreement</string>
+    <string name="title_activity_doctor_search">DoctorSearch</string>
+    <string name="title_activity_pt_sign_up">PtSignUp</string>
+    <string name="facebook_app_id">1613974642241055</string>
+    <string name="title_activity_about_us"></string>
+    <!--<string name="title_how_it_works" ></string>-->
+
+
+    <string-array name="countries" formatted="false" translatable="false">
+        <item>Country</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Canary Islands</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Ceuta and Melilla</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo [DRC]</item>
+        <item>Congo [Republic]</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curaçao</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Côte d’Ivoire</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Europe</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latin America</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia [FYROM]</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar [Burma]</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Réunion</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>São Tomé and Príncipe</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turks and Caicos Islands</item>
+        <item>U.S. Outlying Islands</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Western Sahara</item>
+        <item>XA</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Åland Islands</item>
+    </string-array>
+
+    <string name="title_activity_dr_search">DrSearch</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_booking_history">BookingHistory</string>
+    <string name="title_activity_doctor_profile">DoctorProfile</string>
+    <string name="title_activity_patient_profile">PatientProfile</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_appointment">Appointment</string>
+
+    <string-array name="Time">
+        <item>11:30 AM To 01:30 PM</item>
+        <item>12:30 PM To 06:30 PM</item>
+        <item>01:30 PM To 08:30 PM</item>
+        <item>02:30 AM To 08:30 PM</item>
+        <item>10:30 AM To 12:30 PM</item>
+        <item>04:45 PM To 05:15 PM</item>
+        <item>05:15 PM To 05:45 PM</item>
+        <item>05:45 PM To 06:15 PM</item>
+        <item>06:15 PM To 06:45 PM</item>
+        <item>06:45 PM To 07:15 PM</item>
+        <item>07:15 PM To 07:45 PM</item>
+        <item>07:45 PM To 08:15 PM</item>
+        <item>08:15 PM To 08:45 PM</item>
+    </string-array>
+
+    <string-array name="tempArray">
+        <item>State</item>
+    </string-array>
+    <string-array name="Time1">
+        <item>UTC -11:00</item>
+        <item>UTC -10:00</item>
+        <item>UTC -09:30</item>
+        <item>UTC -09:00</item>
+        <item>UTC -08:00</item>
+        <item>UTC -07:00</item>
+        <item>UTC -06:00</item>
+        <item>UTC -05:00</item>
+        <item>UTC -04:30</item>
+        <item>UTC -04:00</item>
+        <item>UTC -03:00</item>
+        <item>UTC -02:30</item>
+        <item>UTC -02:00</item>
+        <item>UTC -01:00</item>
+        <item>UTC +00:00</item>
+        <item>UTC +01:00</item>
+        <item>UTC +02:00</item>
+        <item>UTC +03:00</item>
+        <item>UTC +04:00</item>
+        <item>UTC +04:30</item>
+        <item>UTC +05:00</item>
+        <item>UTC +05:30</item>
+        <item>UTC +05:45</item>
+        <item>UTC +06:00</item>
+        <item>UTC +06:30</item>
+        <item>UTC +07:00</item>
+        <item>UTC +08:00</item>
+        <item>UTC +08:40</item>
+        <item>UTC +09:00</item>
+        <item>UTC +09:30</item>
+        <item>UTC +10:00</item>
+        <item>UTC +10:30</item>
+        <item>UTC +11:00</item>
+        <item>UTC +11:30</item>
+        <item>UTC +12:00</item>
+        <item>UTC +12:45</item>
+        <item>UTC +13:00</item>
+        <item>UTC +14:00</item>
+
+
+    </string-array>
+
+    <string name="title_activity_doc_profile_for_user">DocProfileForUser</string>
+    <string name="title_activity_pt_sign_up_recovry">PtSignUpRecovry</string>
+    <string name="title_activity_pt_booking">PtBooking</string>
+    <string name="title_activity_booking_history_search_doc">BookingHistorySearchDoc</string>
+        <string name="title_activity_term_condition">
+
+        The terms and conditions stated here in constitute a legal agreement between you and 9458689 Canada Inc. For the purposes of this Terms of Use Agreement,
+        <b>“Doctor Pocket”</b>, the <b>“Company”</b>, <b>“us”</b>, <b>“we”</b> and <b>“ours”</b> refer to 9458689 Canada Inc. and <b>“your”</b> and <b>“user”</b> refer to you. Further, <b>“Appointment”</b> refers to the non-physical communication messaging correspondence between you and a medical professional that you have paid for and “Medical Professional” refers to a doctor.  Before you may become a user of Doctor Pocket and our website and application (collectively, the “Site”), you must agree to the terms and conditions that are set out below, including without limitation your agreement in Section 20 to arbitrate certain claims and not to participate in any class actions for claims subject to arbitration. By using the Site, you hereby expressly acknowledge and agree to be bound by the terms and conditions of this Terms of Use Agreement, and any future changes. You further acknowledge and agree that you have read and understand the Company’s Privacy Policy available at doctorpocket.ca (the “Privacy Policy”).  The Company may make modifications, deletions and/or additions to this Terms of Use Agreement (“Changes”) at any time. Changes will be effective: (i) thirty (30) days after the Company provides notice of the Changes, whether such notice is provided through the Site, is sent to the email address associated with your account (if applicable) or otherwise; or (ii) when you opt-in or otherwise expressly agree to the Changes or a version of this Terms of Use Agreement incorporating the Changes, whichever comes first. Please note that the last update was performed on ?, 2015. If the modified terms are not acceptable, please do not access or use the Site.  
+
+            \n<b>THE INFORMATION PROVIDED BY PHYSICIANS ON THE SITE IS INTENDED FOR INFORMATIONAL PURPOSES ONLY AND IS NOT A SUBSTITUTE FOR A FACE-TO-FACE PHYSICAL EXAMINATION OF THE USER BY A DOCTOR OR OTHER HEALTH PROFESSIONALS. IF YOU SUFFER FROM A PSYCHIATRIC ILLNESS OR HAVE ANY SUICIDAL IDEATIONS, PLEASE CONTACT YOUR PHYSICIAN IMMEDIATELY.  
+            \n\nIT IS AT THE USER’S DISCRETION TO RELY ON OR MAKE HEALTH DECISIONS BASED ON INFORMATION PROVIDED BY OUR DOCTORS. DOCTOR POCKET STRONGLY RECOMMENDS THAT A USER SEEKING MEDICAL OR MENTAL HEALTH ADVICE MAKE AN APPOINTMENT FOR AN EXAMINATION IN PERSON WITH A QUALIFIED PROFESSIONAL OF THEIR CHOICE.
+            \n\n  IF YOU DO NOT AGREE TO ANY OF THESE TERMS YOU MAY NOT USE OUR SERVICES.</b>
+
+            \n<b>1. No Doctor - User Relationship</b>
+            \nDoctor Pocket does not replace your relationship with a physician or healthcare provider. The information provided through the Site should not be relied upon as a substitute for medical advice, evaluation or care from your physician or other qualified healthcare provider. The information received from the Site should be put to be use only after consulting your physician or other healthcare provider.
+        \n\n  <b>2. Use </b>
+            \nWhen the Services are provided, you and the doctor are not physically in the same location.  
+
+       \n\n <b>3. Services and Scope of Services</b>
+            \nDoctor Pocket provides a messaging communication system between you and a doctor of your choice where you can ask questions that fall under our “What we can help you with” guidelines (the “What We Can Help You With Guideline”) available at doctorpocket.ca and receive information from the doctor of your choice in response (the “Services”).
+When the Services are provided, you and the doctor are not physically in the same location.
+Medical Professionals are not employees or agents of Doctor Pocket. they are independent service providers using the Site to sell their knowledge to you.
+
+         \n\n <b>4. Independence of Medical Professionals</b>
+            \nThe opinions, statements and answers provided by the doctor during an Appointment are solely the individual and independent opinions and statements of such doctor and do not reflect the opinions of Doctor Pocket, its affiliates or any other organizations or institutions to which such doctor is affiliated or provides services. Doctor Pocket does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned through the Site.
+The inclusion of doctors on Doctor Pocket or the Site does not imply recommendation or endorsement of such professional nor is any information provided on said individual intended as a tool for verifying the credentials, qualifications, or abilities of any professional contained therein. Such information is provided on an "as-is" basis and Doctor Pocket disclaims all warranties, either express or implied, including but not limited to the implied warranties of merchantability and fitness for particular purpose.
+
+
+       \n\n<b>5. Informed Consent and User’s Risks</b>
+            \nYou acknowledge that there are possible risks in using the Services, including but not limited to:
+\n <li>While Doctor Pocket attempts to provide access to medical information for you, the Medical Professionals will not be examining you physically. The Medical Professional may not have access to all or some of your medical history that might be critical to inform you. The Medical Professional will not have the benefit of information that would be obtained by examining you in person, observing your physical condition and by going through your medical records. This means that the service provided through Doctor Pocket is different from the diagnostic and treatment services typically decided by a physician. Therefore, the physician may not be aware of facts or information that would affect his or her opinion of and response to your questions;</li>
+\n <li>The information or opinion on diagnosis you may receive could be limited and provisional.</li>
+\n <li>There is no guarantee that a doctor will be able to provide you with responses to your questions during an Appointment, nor deliver a result to you;</li>
+\n <li>An inaccurate, incomplete or insufficiently detailed medical history from you may lead to incomplete or incorrect information being provided to you by the doctor resulting in possible injury;</li>
+\n <li>Failures of our systems or your mobile device leading to a delay of the delivery of the Services.</li>
+\n <li>The possibility of images sent by you through the Site not being of sufficient clarity, leaving the Medical Professional not able to provide an informed opinion;</li>
+\n <li>The doctor can refuse to continue with an Appointment if the doctor, in their sole discretion, is of the opinion that your situation is an emergency or is too severe;</li>
+\n <li>The doctor can refuse to continue with an Appointment if the doctor, in their sole discretion, is of the opinion that your questions relate to a medical issue that does not follow the What We Can Help You With Guideline;</li>
+\n <li>Doctor Pocket reserves the right to suspend and, delete any accounts of any users without providing warning to do so;</li>
+\n <li>Doctor Pocket can refuse to accept new sign-up accounts without any warning to do so.and</li>\n<li> Doctor Pocket is not liable for the protection of any information provided between you and the doctor during an Appointment.</li>
+\n To reduce the risks of the above, Doctor Pocket strongly encourages you to be in touch with an on-ground physician and share the responses received from your Appointment on Doctor Pocket with him or her.
+ \n \n<b>BY DECIDING TO ENGAGE THE SERVICE, YOU ACKNOWLEDGE AND AGREE THAT YOU ARE AWARE OF THE RISKS AND LIMITATIONS ABOVE AND AGREE TO ASSUME THE ENTIRE RISKS.</b>
+
+            \n\n <b>6. Representation and Warranties</b>
+            \nBy using the Site, you expressly represent and warrant that you are legally entitled to enter into this Terms of Use Agreement. If you reside in a jurisdiction which restricts the use of the Site and/or Services because of age, or restricts the ability to enter into agreements such as this one due to age, you must abide by such age limits and you must not use the Site. Without limiting the foregoing, the Site is not available to persons under the age of 18 (unless with a parent or legal guardian’s prior authorization). By using the Site, you represent and warrant that you are at least 18 years old (or have the prior authorization of a parent or legal guardian). By using the Site, you represent and warrant that you have the right, authority and capacity to enter into this Terms of Use Agreement and to abide by the terms and conditions of this Terms of Use Agreement. Your participation in using the Site is for your sole, personal use. You may not authorize others to use your user account and/or password, and you may not assign or otherwise transfer your user account and/or password to any other person or entity. When using the Site, you agree to comply with all applicable laws of the nation, the country, state, province and city in which you are present while using the Site.
+\n  By using the Site and/or Services, you agree that you will not use the Site and/or Services to:
+            \n <li>Violate any laws or third party rights;</li>
+            \n<li>Use the Site and the Services if you are temporarily or indefinitely suspended from the Site;</li>
+            \n <li>Upload, post, email, transmit, or otherwise make available any content that: (i) is false, inaccurate, misleading, defamatory, libelous, harmful, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, invasive of another’s privacy, hateful, racially, ethnically or otherwise objectionable or generally unlawful; (ii) you do not have a right to make available under any law or under contractual or fiduciary relationships; (iii) infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party; (iv) would constitute unsolicited or unauthorized advertising, promotional materials, “junk mail,” “spam,” “chain letters,” “pyramid schemes,” or any other form of illegal solicitation;</li>
+            \n<li>Impersonate any person or entity, including, but not limited to, a Pocket Doctor official or falsely state or otherwise misrepresent your affiliation with a person, entity or doctor;</li>
+            \n<li>Interfere with or disrupt, or attempt to interfere with or disrupt, any Doctor Pocket servers, networks or equipment connected to Doctor Pocket;</li>
+            \n <li>Impersonate any person or entity, or make any false statement regarding his or her employment, agency or affiliation with any person or entity;</li>
+            \n <li>Stalk, threaten or harass any Medical Professional or user or infringe upon or attempt to infringe upon their privacy;</li>
+            \n<li>Breach this Terms of Use Agreement or any other applicable agreements or instructions conveyed by Doctor Pocket;</li>
+            \n<li>Distribute viruses or any other technologies that may harm Pocket Doctor, the Site or the interests or property of other users.</li>
+
+            \n Additionally, you agree that you will not:
+
+\n <li>Take any action that imposes or may impose (in our sole discretion) an unreasonable or disproportionately large load on our infrastructure and/or Site;</li>
+            \n <li>Copy, reproduce, modify, create derivative works from, distribute, or publicly display any content (except for your information) from our Site without the prior expressed written permission of Pocket Doctor and the appropriate third party, as applicable;</li>
+            \n<li>Interfere or attempt to interfere with the proper working of our Site or any activities conducted on our Site; or</li>
+            \n <li>Forge headers or otherwise manipulate identifiers in order to disguise the origin of content posted or transmitted through the Services or the Site.</li>
+
+\n  By using the Site and or Services, you agree to the following:
+            \n <li>The information furnished by you in the registration form is accurate, true, current and complete, and you will maintain and update such information during the term of this Terms of Use Agreement so that it will remain accurate, true, current and complete at all times;</li>
+            \n <li>All Appointments and other interactions between you and a doctor will be billed through PayPal or a similar service provider. You agree to abide by the pricing terms agreed upon with a doctor while using Doctor Pocket and to pay to Doctor Pocket all fees for services rendered to you by doctors;</li>
+           \n <li>Doctor Pocket may elect, but is not required, to review your personal profile and amend any typing or spelling errors. Doctor Pocket does not examine the validity or accuracy of the details in the users personal profile or in any of the users postings or transmissions. Without derogating from the above or any other term of this Terms of Use Agreement, Doctor Pocket may, in its absolute discretion, refuse to post, transmit or remove any content uploaded by the user and or remove any content violating this Terms of Use Agreement. The user bears all the risks associated with the uploading and transmitting of material while utilizing the Site and or Doctor Pockets services, including reliance on its accuracy, reliability or legality.</li>
+
+           \n\n <b>7. Doctor Responsibilities </b>
+            \nFor informative purposes only, the doctors have agreed that they:
+\n<li>Will not diagnose, treat, test, recommend a course of treatment, or otherwise provide or perform services that require an in-person physical examination;</li>
+            \n<li>Will not prescribe or dispense medicines;</li>
+            \n<li>Will recommend that users seek the advice of a physician who can perform an in-person physical examination;</li>
+            \n<li>Will advise users that their advice is not a substitute for an actual physical evaluation by a qualified physician and that their advice is to be construed for informational purposes only;</li>
+            \n<li>Will not engage in conduct that is harmful, unethical, fraudulent, deceptive or offensive; and</li>
+            \n<li>Will not disclose any information that was provided to them by a user and will use their best efforts to guard user’s privacy.</li>
+
+
+          \n\n   <b>8. Fees </b>
+            \nAppointment fees will be paid through the secure worldwide online payment system PayPal or a similar service provider. You must be aware that no Appointment will be given until the payment fees are paid and received by Doctor Pocket.
+Doctor Pocket does not offer a guarantee of any sort of reimbursement. Notwithstanding the foregoing, in the event that a doctor refuses to continue with an Appointment because, in the doctor’s opinion, your situation is an emergency or is too severe, you will receive a refund of 50% of the fee paid for that Appointment.
+Your account will be blocked from using any of our services if you do not pay for an Appointment that has been missed by you and not cancelled at least twenty-four (24) hours in advance. However, if a medical professional misses an Appointment time, the Appointment can be rescheduled with the same doctor based on the availabilities.
+
+           \n\n <b>9.  Proprietary Rights</b>
+            \nYou acknowledge and agree that Doctor Pocket (or Doctor Pocket’s licensors) own all legal right, title and interest in and to the Site and Services, including any intellectual property rights which subsist in the Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist). Nothing in the Terms of Use Agreement provides you with ownership of these rights or right to use any of Doctor Pocket’s trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.
+
+Doctor Pocket alone (and its licensors, where applicable) shall further own all right, title and interest, in and to any suggestions, ideas, enhancement requests, feedback, recommendations or other information provided by you or any other party relating to the Site and/or Services (collectively “Feedback”). You are not required to provide any Feedback to the Company. To the extent you do provide any Feedback to the Company, you agree to assign and hereby do assign to the Company all right, title and interest in and to such Feedback, and you do hereby waive and renounce any moral rights you may have in the Feedback in favour of Company, and agree that the Company may freely utilize such Feedback without compensation to you.
+
+This Terms of Use Agreement is not a sale and does not convey to you any rights of ownership in or related to the Site or Services, or any intellectual property rights owned by the Company. The Company name, the Company logo, and the product names associated with the Site and/or the Services are trademarks of the Company or third parties, and no right or license is granted to you to use them.
+
+
+     \n\n  <b>10. Practices and Limits Concerning Use of the Services</b>
+            \nYou acknowledge that Doctor Pocket may establish general practices and limits concerning the use of the Services, including without limitation, the maximum number of times (and the maximum duration for which) you may access or use the Services in a given period of time. You further acknowledge that Doctor Pocket reserves the right to change these general practices and limits at any time, in its sole discretion, with or without notice.
+
+           \n\n <b>11.  Limitation of Liability</b>
+            \nYou will not hold Doctor Pocket, its affiliates, and each of their shareholders, directors, officers, agents and employees (collectively the “Company Parties”) (or any doctor) responsible for actions or inactions, which are made through our Site or using our Services. We do not guarantee the quality, the truth or accuracy of any information provided through our Site or using our Services. We also cannot guarantee continuous or secure access to our Services, and operation of our Site may be interfered with by numerous factors outside of our control.
+
+\n <b>IN NO EVENT SHALL THE COMPANY PARTIES OR THE COMPANY’S LICENSORS AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS TERMS OF USE AGREEMENT OR YOUR USE OF (OR INABILITY TO USE) THE SITE OR THE SERVICES OR WITH RESPECT TO THE CONTENT EXCEED THE AMOUNTS ACTUALLY PAID BY YOU TO THE COMPANY IN THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO SUCH CLAIM OR THE AMOUNT OF ONE HUNDRED FIFTY DOLLARS (150$), WHICHEVER IS GREATER. IN NO EVENT SHALL THE COMPANY PARTIES OR THE COMPANY’S LICENSORS BE LIABLE TO YOU FOR ANY INDIRECT, PUNITIVE, SPECIAL, EXEMPLARY, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES OF ANY TYPE OR KIND (INCLUDING PERSONAL INJURY, LOSS OF DATA, REVENUE, PROFITS, USE OR OTHER ECONOMIC ADVANTAGE). THE COMPANY PARTIES OR THE COMPANY’S LICENSORS SHALL NOT BE LIABLE FOR ANY LOSS, DAMAGE OR INJURY WHICH MAY BE INCURRED BY YOU, INCLUDING BUT NOT LIMITED TO LOSS, DAMAGE OR INJURY ARISING OUT OF, OR IN ANY WAY CONNECTED WITH THE SITE OR THE CONTENT, INCLUDING BUT NOT LIMITED TO THE USE OR INABILITY TO USE THE SITE, ANY RELIANCE PLACED BY YOU ON THE COMPLETENESS, ACCURACY OR EXISTENCE OF ANY ADVERTISING, OR AS A RESULT OF ANY RELATIONSHIP OR TRANSACTION BETWEEN YOU AND ANY THIRD PARTY SERVICE PROVIDER, ADVERTISER OR SPONSOR WHOSE ADVERTISING APPEARS ON OR WITHIN THE SITE. THE FOREGOING EXCLUSIONS SHALL APPLY EVEN IF THE COMPANY PARTIES OR THE COMPANY’S LICENSORS HAVE BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+RESPONSIBILITY FOR THE DECISIONS YOU MAKE REGARDING THE SITE (WITH ALL ITS IMPLICATIONS, INCLUDING BUT NOT LIMITED TO DECISIONS YOU MAKE WITH INFORMATION, RESPONSES, SUGGESTIONS OR OPINIONS RECEIVED FROM DOCTORS IN USING THE SERVICES) RESTS SOLELY WITH YOU. WE WILL NOT ASSESS THE SUITABILITY, LEGALITY OR ABILITY OF ANY USERS AND YOU EXPRESSLY WAIVE AND RELEASE THE COMPANY PARTIES OR THE COMPANY’S LICENSORS, TO THE MAXIMUM EXTENT ALLOWABLE UNDER APPLICABLE LAW, FROM ANY AND ALL LIABILITY, CLAIMS, CAUSES OF ACTION, OR DAMAGES ARISING FROM YOUR USE OF THE SITE, OR IN ANY WAY RELATED TO THE THIRD PARTIES. YOU EXPRESSLY WAIVE AND RELEASE ANY AND ALL RIGHTS AND BENEFITS UNDER SECTION 1542 OF THE CIVIL CODE OF THE STATE OF CALIFORNIA (OR ANY ANALOGOUS LAW OF ANY OTHER STATE OR PROVINCE, INCLUDING WITHOUT LIMITATION THE PROVINCE OF QUEBEC), WHICH READS AS FOLLOWS: 
+            <b>"A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH, IF KNOWN BY HIM, MUST HAVE MATERIALLY AFFECTED HIS SETTLEMENT WITH THE DEBTOR".</b>
+            YOU UNDERSTAND THAT BY USING THE SITE, YOU MAY BE EXPOSED TO CONTENT THAT IS POTENTIALLY OFFENSIVE OR OTHERWISE OBJECTIONABLE, AND THAT YOU USE THE SITE AT YOUR OWN RISK.
+APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY OR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN SUCH CASES, THE COMPANY PARTIES OR THE COMPANY’S LICENSORS LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.</b>
+
+
+         \n\n    <b>12. Disclaimer of Warranties, Representations and Conditions</b>
+            \n<b>THE COMPANY MAKES NO REPRESENTATION, WARRANTY, OR GUARANTY AS TO THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY, AVAILABILITY, SAFETY, ACCURACY OR COMPLETENESS OF THE SITE OR ANYTHING TRANSMITTED TO YOU DURING THE PROVISION OF THE SERVICES. THE COMPANY DOES NOT REPRESENT OR WARRANT THAT (A) THE USE OF THE SITE WILL BE SECURE, TIMELY, UNINTERRUPTED OR ERROR-FREE OR OPERATE IN COMBINATION WITH ANY OTHER HARDWARE, APPLICATION, SYSTEM OR DATA, (B) THE SITE WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS, (C) ANY STORED DATA WILL BE ACCURATE OR RELIABLE, (D) THE QUALITY OF THE SITE, AS WELL AS ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SITE WILL MEET YOUR REQUIREMENTS OR EXPECTATIONS, (E) ERRORS OR DEFECTS IN THE SITE WILL BE CORRECTED, OR (F) THE SITE OR THE SERVER(S) THAT MAKE IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. THE SITE AND THE SERVICES ARE PROVIDED TO YOU STRICTLY ON AN "AS IS" BASIS. ALL CONDITIONS, REPRESENTATIONS AND WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF THIRD PARTY RIGHTS, ARE HEREBY DISCLAIMED TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW BY THE COMPANY. THE COMPANY MAKES NO REPRESENTATION, WARRANTY, OR GUARANTY AS TO THE RELIABILITY, SAFETY, TIMELINESS, QUALITY, SUITABILITY OR AVAILABILITY OF THE SITE, AS WELL AS ANY SERVICES, PRODUCTS OR GOODS OBTAINED BY THIRD PARTIES THROUGH THE USE OF THE SITE. THE COMPANY DOES NOT VERIFY THE OWNERSHIP OR INTELLECTUAL PROPERTY RIGHTS OF ANY CONTENT, NOR HOW ANY USER MAKES USE OF THE CONTENT, AND SHALL HAVE NO LIABILITY RELATING THERETO. YOU ACKNOWLEDGE AND AGREE THAT THE ENTIRE RISK ARISING OUT OF YOUR USE OF THE SITE, THE SERVICES AND ANY THIRD PARTY SERVICES OR PRODUCTS REMAINS SOLELY WITH YOU, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+CERTAIN LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS, EXCLUSIONS, OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MIGHT HAVE ADDITIONAL RIGHTS.</b>
+
+
+        \n\n    <b>13. Relese</b>
+            \nIf you have a dispute with one or more users or any of the doctors, you release the Company Parties and the Company’s licensors  from claims, demands and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes.
+
+         \n\n    <b>14. Indemnity</b>
+            \nYou agree to indemnify and hold the Company Parties and the Company’s licensors harmless from any claim or demand, including reasonable legal fees, made by any third party due to or arising out of your breach or violation of this Terms of Use Agreement, of any content which you submit, transmit or make available through the Site or the Services, your use of the Services, your connection to Site and/or the Services, or your violation of any rights of a third party or your violation of any applicable law.
+
+
+
+          \n\n   <b>15. Privacy</b>
+            \nDuring the registration process, you must provide accurate information about yourselves. Failure to do so is considered as a breach of this Terms of Use Agreement, and those users will have their accounts terminated.
+Doctor Pocket complies with the American and Canadian health care privacy policies to protect and secure your personal health information. Further information regarding the privacy of your information can be found in our Privacy Policy doctorpocket.ca
+We use your information only as described in our Privacy Policy doctorpocket.ca which is part of and is hereby incorporated into this Terms of Use Agreement. If you object to your personal information being transferred or used in the way referred to in our Privacy Policy, please do not use our Services.
+
+Any information provided to any medical professional on Doctor Pocket is confidential, will not be published anywhere, and can only be viewed by the medical professional. Any type of information that is related to you based on medical history or current notes we have about your file is stored on the secure database of Doctor Pocket.
+
+         \n\n   <b>16.  External Links</b>
+            \nThe Site and/or Services may provide, or third parties may provide, links to other websites or content or resources. Doctor Pocket has no control over such third party’s websites and resources. You acknowledge and agree that Doctor Pocket is not responsible for the availability of such external websites or resources, and does not endorse and is not responsible or liable for any content, advertising, products, or other materials on or available from such websites or resources. You further acknowledge and agree that Doctor Pocket is not responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or advertising, products, or other materials on or available from such websites or resources.
+
+         \n\n   <b>17. Assignment</b>
+            \nThis Terms of Use Agreement may not be assigned by you (whether in whole or in part) without the prior written approval of the Company. This Terms of Use Agreement may be assigned without your consent (in whole or in part) by the Company, including, without limiting the foregoing, to (i) a parent or subsidiary, (ii) an acquirer of assets or shares, or (iii) a successor by merger. Any purported assignment in violation of this section shall be void.
+
+           \n\n  <b>18. No Agency</b>
+            \n No joint venture, partnership, employment, or agency relationship exists between you, the Company or any third party provider as a result of this Terms of Use Agreement or use of the Site.
+
+         \n\n   <b>19. Notices</b>
+            \nExcept as explicitly stated otherwise, any notices to Doctor Pocket shall be sent to: help@doctorpocket.ca and to you to the email address which you provided to Doctor Pocket during the registration process (if Doctor Pocket prefers, by certified mail, postage prepaid and return receipt requested, to the address provided to Doctor Pocket during the registration process).
+
+
+           \n\n <b>20. Controlling Law and Jurisdiction</b>
+            \n<u> General.</u> This Terms of Use Agreement and any action related thereto will be governed by the laws of the Province of Québec without regard to its conflict of law’s provisions. Subject to the rest of this Section, the exclusive jurisdiction and venue of any action in relation to this Terms of Use Agreement will be the District of Montreal and each of the parties hereto waives any objection to jurisdiction and venue in such courts. However, in the event of the actual or threatened infringement, misappropriation or violation of the Company’s copyrights, trademarks, trade secrets, patents or other intellectual property rights, the Company may, at its discretion, institute legal proceedings in any jurisdiction(s) which is (are) deemed necessary or advisable.
+\n<u> Arbitration.</u> You and the Company agree that any dispute, claim or controversy arising out of or relating to this Terms of Use Agreement or the breach, termination, enforcement, interpretation or validity thereof or the use of the Site or the performance of the Services
+            (collectively, "Disputes") will be settled exclusively by binding arbitration, except that each party retains the right to bring an individual action in small claims court and the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of a partys copyrights, trademarks, trade secrets, patents or other intellectual property rights. You acknowledge and agree that you are waiving the right to participate as a plaintiff in any purported class action or representative proceeding. Further, unless both you and Company otherwise agree in writing, the arbitrators may not consolidate more than one persons claims, and may not otherwise preside over any form of any class or representative proceeding. If this specific paragraph is held unenforceable, then the entirety of this "Dispute Resolution" section will be deemed void. Except as provided in the preceding sentence, this "Dispute Resolution" section will survive any termination of this Terms of Use Agreement.
+
+         \n   <u>Arbitration Rules.</u> The arbitration will be subject to article 940 and following of the Code of civil Procedure (Quebec).
+          \n  <u>Arbitration Location. </u> Unless you and Company otherwise agree, the arbitration will be conducted in the Province of Quebec, City of Montreal.
+         \n   <u>Decision. </u>The arbitrators will render an award within the time frame specified in the Code of civil Procedure (Quebec). Such decision will include the essential findings and conclusions upon which the arbitrators based the award. Judgment on the arbitration award may be entered in any court having jurisdiction thereof. Any damages granted by the arbitrators must be consistent with the terms of the "Limitation of Liability" section above as to the types and the amounts of damages for which a party may be held liable.
+          \n     <u>Fees. </u>The arbitrators shall determine who is responsible to pay the fees associated with the arbitration.
+
+           \n\n <b>21. General</b>
+            \nIf any provision of this Terms of Use Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced. Headings are for reference purposes only and do not limit the scope or extent of such Section. The failure of the Company to enforce any right or provision in this Terms of Use Agreement shall not constitute a waiver of such right or provision unless acknowledged and agreed to by the Company in writing. this Terms of Use Agreement comprises the entire agreement between you and the Company and supersedes all prior or contemporaneous negotiations, discussions or agreements, whether written or oral, between the parties regarding the subject matter contained herein.
+
+
+        </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_patient_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="refer_popup">"Every time a new Doctor Pocket user has signed up using your invitation code they'll get $15 off a consult and you'll get $15 off a consult too. Receive up to $15, off each consult, for each referral you earn.
+For a limited time offer you'll get $20 off your first consult. Promotions may apply for 5 months from their issue date."</string>
+    <string name="title_activity_test">testActivity</string>
+    <string name="refer_link"><u>Refer</u>.</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/header_doc_search"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#0FC9FC"
+
+        >
+        <ImageView
+            android:id="@+id/img_left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/arrow_left" />
+
+        <com.docpoc.doctor.utils.AngellinaTextView
+            android:id="@+id/custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Doctor Pocket"
+            android:textColor="#FFF"
+            android:textSize="45dp" />
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/custom_text"
+            android:gravity="center"
+            android:background="@drawable/white_round"
+            android:layout_marginTop="10dp"
+            android:text="TM"
+
+            android:textColor="#555"
+            android:textSize="6dp" />
+    </RelativeLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/webView"
+        android:layout_below="@id/header_doc_search"
+        android:layout_height="match_parent"></WebView>
+
+</RelativeLayout>

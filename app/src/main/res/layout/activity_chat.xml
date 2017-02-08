@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relChat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chat_back_panel"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:id="@+id/relChatPanel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imgMic">
+
+            <ImageView
+                android:id="@+id/imgCamera"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_camera" />
+
+            <ImageView
+                android:id="@+id/imgSend"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:src="@drawable/icon_send" />
+
+
+            <EditText
+                android:id="@+id/etChat"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@id/imgSend"
+                android:layout_toRightOf="@+id/imgCamera"
+                android:background="#fff"
+                android:paddingLeft="5dp"
+                android:text="123456"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relAudioPanel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imgMic"
+            android:background="@drawable/chat_back_panel"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgRedDot"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/red_round" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/tvTimer"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/imgRedDot"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#cf2e2e" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/imgMic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_microphone" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lstChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relChat"
+        android:layout_below="@+id/rli"
+        android:background="#f4f4f4"
+        android:cacheColorHint="#f4f4f4"
+        android:divider="#00000000"
+        android:dividerHeight="2dp"
+        android:padding="5dp"
+
+        >
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/rli"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:background="#bbbbbb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/img_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:src="@drawable/arrow_left" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_back2">
+
+            <ImageView
+                android:id="@+id/imgOffOn"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txtheader"
+                android:background="@drawable/red_round"
+                android:paddingBottom="10dp" />
+
+            <com.docpoc.doctor.utils.AngellinaTextView
+                android:id="@+id/txtheader"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="sagar"
+                android:textColor="#FFF"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvEndChat"
+                android:layout_width="wrap_content"
+                android:text="   End   "
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:textColor="@android:color/holo_red_dark"
+                android:background="@drawable/red_border_rectangle"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

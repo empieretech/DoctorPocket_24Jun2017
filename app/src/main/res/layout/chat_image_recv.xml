@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="5dp">
+
+    <com.docpoc.doctor.utils.RoundedImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgPerson"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            >
+
+
+            <com.docpoc.doctor.utils.RoundCornerImageView
+                android:id="@+id/imgMessage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:background="@drawable/rounded_corner_image" />
+
+            <View
+                android:id="@+id/viewTransprent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#44ffffff"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/imgDownload"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/download_png"
+                android:visibility="gone" />
+
+
+            <ProgressBar
+                android:id="@+id/pBar"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header_color"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/borderthin"
+
+
+                android:gravity="center_horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_profile_pink" />
+            </RelativeLayout>
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/tvEditPhoto"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/linearLayout2"
+
+
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borderthin"
+                android:gravity="center"
+                android:hint="Edit Photo"
+
+
+                android:textColorHint="@android:color/white"></com.docpoc.doctor.utils.RobottoTextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+
+                android:background="@drawable/borde_login">
+
+                <ImageView
+                    android:id="@+id/imgDown"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/down_arrow" />
+
+                <Button
+                    android:id="@+id/activity_pt_signUp_btn_BOD"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/imgDown"
+                    android:background="@null"
+                    android:gravity="left|center"
+                    android:onClick="onClickSetDOB"
+                    android:paddingLeft="5dp"
+                    android:text="Birthday"
+                    android:textColor="@color/grey_color"
+                    android:textSize="12dp"></Button>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borde_login">
+
+                <ImageView
+                    android:id="@+id/imgDown2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/down_arrow" />
+
+                <Spinner
+                    android:id="@+id/activity_pt_signUp_spinnerCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_toLeftOf="@+id/imgDown2"
+                    android:entries="@array/countries"
+                    android:textColor="@color/grey_color" android:textSize="12dp"
+                    android:background="@null"
+                    android:paddingLeft="5dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/borde_login">
+
+                <ImageView
+                    android:id="@+id/imgDown3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/down_arrow" />
+
+                <Spinner
+                    android:id="@+id/spState"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" android:textSize="12dp"
+                    android:layout_toLeftOf="@+id/imgDown3"
+                    android:entries="@array/tempArray"
+                    android:textColor="@color/grey_color"
+                    android:background="@null"
+                    android:paddingLeft="5dp" />
+
+
+            </RelativeLayout>
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/tvDone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_pink"
+                android:gravity="center"
+                android:hint="DONE"
+                android:padding="5dp"
+                android:paddingTop="3dp"
+                android:textColorHint="@android:color/white"></com.docpoc.doctor.utils.RobottoTextView>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

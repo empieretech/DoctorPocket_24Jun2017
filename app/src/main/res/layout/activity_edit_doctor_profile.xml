@@ -1,0 +1,543 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen"
+    android:orientation="vertical">
+
+    <include layout="@layout/header" />
+
+
+    <LinearLayout
+
+        android:id="@+id/lintop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/fl_style_pic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+
+
+                    >
+
+
+                    <com.docpoc.doctor.utils.RoundedImageView
+                        android:id="@+id/activity_drProfile_iv_drProfile"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+
+
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pBar"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etDocName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginLeft="98dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#1ec9ff" />
+
+                <EditText
+                    android:id="@+id/etSpeciality"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="115dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:text=""
+                    android:textColor="#606060"
+                    android:textSize="10dp" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#1ec9ff" />
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#606060"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginLeft="50dp"
+            android:background="#1ec9ff" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/etAbout"
+
+
+        >
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvCurrentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linTimes"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnUpdateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/borde_login"
+            android:gravity="center"
+            android:hint="Update Profile"
+            android:padding="5dp"
+            android:textColorHint="#0FC9FC"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:id="@+id/linTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnUpdateProfile"
+            android:orientation="horizontal"
+            android:paddingBottom="40dp"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Doctor Fees"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etFess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="10dp" />
+
+                <Spinner
+                    android:id="@+id/spZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:text="UTC +05:30"
+                    android:textColor="@android:color/black"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="Availability"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etMornStartHour"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:layout_width="4dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etMornStartMin"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etMornStartAMPM"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+
+                    <EditText
+                        android:layout_width="17dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="TO"
+                        android:textColor="@android:color/black"
+                        android:textSize="09dp" />
+
+                    <EditText
+                        android:id="@+id/etMornEndHour"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:layout_width="4dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etMornEndMin"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etMornEndAMPM"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/etEvnStartHour"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:layout_width="4dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etEvnStartMin"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etEvnStartAMPM"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+
+                    <EditText
+                        android:layout_width="17dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="TO"
+                        android:textColor="@android:color/black"
+                        android:textSize="09dp" />
+
+                    <EditText
+                        android:id="@+id/etEvnEndHour"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:layout_width="4dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etEvnEndMin"
+                        android:layout_width="12dp"
+                        android:layout_height="20dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                    <EditText
+                        android:id="@+id/etEvnEndAMPM"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:maxLength="2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/lintop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textColor="#606060"
+        android:textSize="12dp" />
+
+</RelativeLayout>

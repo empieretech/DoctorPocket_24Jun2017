@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "436674102927",
+    "project_id": "isoft-doctorpocket"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436674102927:android:d6fcd099139af4ae",
+        "android_client_info": {
+          "package_name": "com.docpoc.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436674102927-16o7cn0nit3m5uoou7nt327tfphsi35q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.docpoc.doctor",
+            "certificate_hash": "069390A63C03723BB732AE7E507F2870DFBA88A6"
+          }
+        },
+        {
+          "client_id": "436674102927-s9j3g6avf0u1rhf4im3fnmlda1ogjge7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-oN88-H3I7XI4j2cLkoTrpbQtVl1d994"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

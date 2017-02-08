@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        android:id="@+id/header_doc_search"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#0FC9FC"
+
+        >
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/menu_icon" />
+
+        <com.docpoc.doctor.utils.AngellinaTextView
+            android:id="@+id/custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Doctor Pocket"
+            android:textColor="#FFF"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/custom_text"
+            android:background="@drawable/white_round"
+            android:gravity="center"
+            android:text="TM"
+
+            android:textColor="#555"
+            android:textSize="6dp" />
+
+        <ImageView
+            android:id="@+id/img_logout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/custom_text"
+            android:src="@drawable/logout_512" />
+
+    </RelativeLayout>
+

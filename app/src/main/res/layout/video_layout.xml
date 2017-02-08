@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_screen"
+    android:orientation="vertical"
+    android:paddingBottom="2px"
+    android:paddingLeft="2px"
+    android:paddingRight="2px"
+
+    android:paddingTop="2px">
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/header" />
+
+    <VideoView
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></VideoView>
+
+</LinearLayout>

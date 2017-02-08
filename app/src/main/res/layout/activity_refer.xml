@@ -1,0 +1,241 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/activity_main_header" />
+    <!--  <include layout="@layout/header" />
+     -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!--   <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+
+
+                   android:layout_marginTop="5dp"
+                   android:gravity="center"
+                   android:text="Save $20 for your first consult and \n $15 for each referral!"
+                   android:textColor="#116a9c"
+
+                   android:textSize="16dp"
+                   android:typeface="serif" />
+   -->
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/drpocket201" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/tvHowWorks"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_refer_rounded_border"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="   How referrals work   "
+
+                android:textColor="@color/grey_color"
+
+                android:textSize="10dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="Share the peace of mind of having a doctor anywhere and save $15 for each referral"
+                android:textColor="#858585"
+
+                android:textSize="12.5dp"
+                android:typeface="serif" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/refer_border_and_back"
+                android:orientation="vertical"
+                android:paddingBottom="30dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Referral Code"
+                    android:textColor="@color/grey_color"
+
+                    android:textSize="16dp"
+                    android:typeface="serif" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+
+                    android:background="@drawable/edit_refer_rounded_border">
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/tvCopy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:text="COPY" />
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/tvCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@id/tvCopy"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text=""
+
+                        android:textColor="#666666"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:id="@+id/tvReferLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_rounded_border"
+
+                    android:gravity="center"
+                    android:text="SEND INVITES"
+                    android:textColor="#ffffff"
+
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+
+                <LinearLayout
+                    android:id="@+id/linAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:weightSum="2">
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/tvAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:singleLine="true"
+                        android:text="Number of persons referred "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/grey_color"
+                        android:textSize="12dp" />
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:id="@+id/tvTotalRefer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.4"
+                        android:gravity="end"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/grey_color"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+
+                    android:background="#7F7F7F" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="18dp"
+                    android:weightSum="2">
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:singleLine="true"
+                        android:text="Save"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/grey_color"
+                        android:textSize="12dp" />
+
+                    <com.docpoc.doctor.utils.RobottoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1.4"
+                        android:gravity="end"
+                        android:id="@+id/tvTotalEarn"
+                        android:text="$0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/grey_color"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#7F7F7F" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

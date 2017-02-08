@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="2">
+
+    <FrameLayout
+        android:id="@+id/fl_style_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+
+
+        >
+
+        <com.docpoc.doctor.utils.RoundedImageView
+            android:id="@+id/img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dummy_profile"
+
+            android:layout_gravity="center_vertical"
+
+
+            android:scaleType="fitCenter" />
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Jeff Khoury"
+            android:textColor="@color/grey_color" />
+
+
+        <LinearLayout
+            android:id="@+id/speciality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:text="Speciality:-"
+                    android:textColor="@color/grey_color" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:singleLine="true"   android:textSize="13dp"
+                    android:text="Physician"
+                    android:id="@+id/tvSpeciality"
+                    android:textColor="@color/medium_grey" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/txt4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="left"
+                    android:singleLine="true"
+                    android:src="@drawable/ic_next"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/consolation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/speciality"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                 android:orientation="vertical">
+
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:text="Consulation Fee:-"
+                    android:textColor="@color/grey_color" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <com.docpoc.doctor.utils.RobottoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:singleLine="true"
+                    android:textSize="13dp"
+                    android:text=""
+                    android:id="@+id/tvFee"
+                    android:textColor="@color/grey_color" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/realtive"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/consolation"
+
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/btnBook"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_rounded_border"
+                android:gravity="center"
+
+                android:text="      BOOK      "
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_rounded_border"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                android:text="VIEW PROFILE"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

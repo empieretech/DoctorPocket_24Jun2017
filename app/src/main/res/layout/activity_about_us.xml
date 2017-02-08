@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen">
+    <include
+        android:id="@+id/header"
+        layout="@layout/activity_main_header" />
+
+    <!-- <RelativeLayout
+         android:id="@+id/header_doc_search"
+         android:layout_width="match_parent"
+         android:layout_height="55dp"
+         android:background="#0FC9FC"
+
+         >
+
+         <com.docpoc.doctor.utils.AngellinaTextView
+             android:id="@+id/custom_text"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:gravity="center"
+             android:text="About Us"
+             android:textColor="#FFF"
+             android:textSize="40dp"
+             android:textStyle="bold" />
+
+         <ImageView
+             android:id="@+id/img_left_arrow"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="16dp"
+             android:src="@drawable/arrow_left" />
+
+     </RelativeLayout>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/header">
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvAboutus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="20dp"
+            android:text="@string/title_activity_about_us"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+
+            />
+
+    </ScrollView>
+</RelativeLayout>

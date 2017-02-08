@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen" >
+    <RelativeLayout 
+    android:id="@+id/header_doc_search"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+   android:layout_marginTop="10dp"
+     >
+    <com.docpoc.doctor.utils.AngellinaTextView
+        android:id="@+id/custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" android:textStyle="bold"
+        android:text="Doctor Pocket"
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+
+   
+
+</RelativeLayout>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="87dp"
+            android:background="@drawable/borderthin"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Are You A Doctor ?"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/btn1"
+            android:layout_marginBottom="207dp"
+            android:background="@drawable/borderthin"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Are You A Patient ?"
+            android:textColor="#fff"
+            android:textSize="22sp"
+             />
+
+</RelativeLayout>

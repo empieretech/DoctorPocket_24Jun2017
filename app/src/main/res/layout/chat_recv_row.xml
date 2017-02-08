@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="35dp"
+    android:layout_marginTop="5dp"
+    android:paddingLeft="5dp">
+
+    <com.docpoc.doctor.utils.RoundedImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgPerson"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgPerson"
+            android:layout_toRightOf="@+id/imgPerson"
+            android:background="@drawable/chat_back_recv"
+            android:gravity="center_vertical"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</LinearLayout>

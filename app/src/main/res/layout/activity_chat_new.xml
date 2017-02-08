@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relChat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chat_back_panel"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:id="@+id/relChatPanel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imgMic">
+
+            <ImageView
+                android:id="@+id/imgCamera"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/icon_camera" />
+
+            <ImageView
+                android:id="@+id/imgSend"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:src="@drawable/icon_send" />
+
+
+            <EditText
+                android:id="@+id/etChat"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@id/imgSend"
+                android:layout_toRightOf="@+id/imgCamera"
+                android:background="#fff"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relAudioPanel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imgMic"
+            android:background="@drawable/chat_back_panel"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgRedDot"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/red_round" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/tvTimer"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/imgRedDot"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#cf2e2e" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/imgMic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_microphone" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relChat"
+        android:layout_below="@+id/header"
+
+        android:background="#f2f2f2"
+        android:id="@+id/lstChat"
+        android:cacheColorHint="#f2f2f2"
+        android:divider="#00000000"
+        android:dividerHeight="2dp"
+        android:padding="5dp" />
+
+
+    <include layout="@layout/header" />
+
+
+</RelativeLayout>

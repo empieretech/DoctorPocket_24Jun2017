@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/borde_login"
+    android:orientation="horizontal"
+
+    android:weightSum="2">
+
+
+    <FrameLayout
+        android:id="@+id/fl_style_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+
+        >
+
+
+        <com.docpoc.doctor.utils.RoundedImageView
+            android:id="@+id/activity_drProfile_iv_drProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+
+
+            />
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Vijay"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/txtprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="1$"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07-03-2016"
+                android:textColor="@android:color/black" />
+
+            <com.docpoc.doctor.utils.RobottoTextView
+                android:id="@+id/txttime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="02:30 PM"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <com.docpoc.doctor.utils.RobottoTextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="02:30 PM"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
