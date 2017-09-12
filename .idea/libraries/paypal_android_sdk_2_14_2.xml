@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="paypal-android-sdk-2.14.2">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.paypal.sdk/paypal-android-sdk/2.14.2/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.paypal.sdk/paypal-android-sdk/2.14.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/88ec86e73be8f9cbfee48fc36f918f626283d957/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/88ec86e73be8f9cbfee48fc36f918f626283d957/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

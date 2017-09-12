@@ -3,489 +3,1056 @@
 
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\16657ca5c6f2f4e794624c1282383fdb612c6200\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_fbde6256aa1f43f808a193ae65b3b652b7306b12\classes.dex" />
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0486298b986812153fe066b54ff98231f926e24a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\88313e6f50406380ba2716b2fcd23ab1ef511059\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_25bc4d76483c9efe50141a3686ecd7e272195e77\classes.dex" />
+        revision="25.0.1"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58a1ef23a94385c714fff51a3a9664880a3b3b72\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\637e2c48523770dd904e2b28add0049f06344c6f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_b6388d9921f5aacf95013ad40167806692af8093\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_e4f79d94881103977dd9dd9b77065409c49bdca6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.0.2_6aceef28a40a71d85060445815f21120f7b2bb4a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.14_67bde155613abf3e6753c8e64e09eff593cb35d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.0.2_09e89db3a3deba303f65273be33cac5a01b7f9fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_d9adf726ef0fa3ddc4bb510bd00c0e3ad460b675\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_fceddeee7f81267db006fd8dbc1bc3983dc07ffd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\gson-2.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.2_5f1219287f159a582038a3c4fee9f60d10c038d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_5c04724ff882251f29ac52a31fa582751470c8c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\GoogleConversionTrackingSdk-2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1b178dd030b222412a96435782c0dc24aac48a8f">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\GoogleConversionTrackingSdk-2.2.4_c51ba55bd4d7b55259d997eefd0b893a3b648496\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.0\db2658f013fb163de4a99274c2eb9e17efe535d2\Java-WebSocket-1.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\Java-WebSocket-1.3.0_021c0687befccabf7babe35386bf3265e4312570\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.18.0_6a3607768d273308963c0d4f4874e6e2f0ccd8ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_ece378d4acd29b28c90a8021a84a394ca4776084\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_b4f552b8c1196c08151b85f57dade4da676f2cc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.14.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.paypal.sdk-paypal-android-sdk-2.14.2_52e762945889a14678199d5b20594ca319f9dc7c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_09bbceae1986ff6b41a4cc176e4f71edbda17dab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\httpclient-4.1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a260d242a42d8ccaec0c410084f9b62d47a7c2c5">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.1.3_c5cb1a21de2fb53eb77d423b99f46a05bdfe7343\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a5170a3f4c99148277e61dafd0a77c24de979e8d">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_71789bd05b7e2ba7565bb90d53cba29b1f48a992\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_78e2b8316f163d08e2ff614db402d3df2bc603f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_d35aa81ec18627e8a8042e5b88049405c65ffaf0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_114dad9176b34c1daf47e7b7badecb082f397063\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.5_9cdbe93888cf6950b7325ded6e68caec73b3cb64\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.2_8a5f0d451143fd1975851afb34bba56ed301abb9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_06359b8198ba066e27cf0cbbae979899172b746e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_1648b3da704c5b0bb8e23eb9ecd7fa6617fdc1e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="66d894046ac152a2340e1d5b7f8a9c74c888da00">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a83f1f1c1097658adcbddc26ab5c65b4de0fee1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.2_fb9f8cf02c859075fa14ab32348f99258fce5398\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_264bb4e86bcdfe5137d21c5277f75f02f95d6c3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\android-query-full.0.25.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="903bd17667452d5332428142940930d4746b8bf2">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-query-full.0.25.9_7057a5f129547fc17e9f0546258f60da850b87cc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\httpmime-4.1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_5c60239553d1df2520b3eb25372fa451ae9a0048\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\YouTubeAndroidPlayerApi.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_b4cc3bb6f34356a762b5e45cea1c25ba265dddcb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_3cfe9fd33a12e780012aeea7f8fcc936208b7c58\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.10_aba55f4565f839933c71b05665988cb242bf50dc\classes.dex" />
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b5baadb3f0cc2767621a557f3a7db18b566118a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\de404fc02fce3a2554ab5b215461ef1e035be88b\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_41b1f713cc8f66f491f2ab2eb9a905c18e9fccca\classes.dex" />
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9846d4e9b7d0ee049098b23db805d09b0863f0a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        jar="E:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_2200821d652391d14bd30ea54647e708c0563bfe\classes.dex" />
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_cddeabeb9fc07300b836a32f8aca99f563990a6f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.2\jars\classes.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\1d5b427607396d24ae54aa901a5a803c1698b459\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.0.2_396c7965a3bb64137db61eabe3f496bd97994601\classes.dex" />
+        revision="25.0.1"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_781c5e48a005ddfc976f0dde5f2afc1ec7ac00aa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\httpcore-4.1.4.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\7fc50bbf2c02b0ad89aff08cc453720f5fb905a3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.1.4_cdf4b1059d4a4ed8cb46ac8c716762fda8b51091\classes.dex" />
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01198b07aa0e8c05f6ecdda2bf2b8820c039480c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\jsoup-1.10.2.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7e3e8a15f988a8540d7ca5de7ca1591321f3400d\classes.dex" />
+        revision="25.0.1"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.10.2_4584600aaaea284e37671d14dee90395dd569533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpclient-4.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a260d242a42d8ccaec0c410084f9b62d47a7c2c5">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.1.3_4a83da4032f0a21a76b77d8c9645204291c12f4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\android-query-full.0.25.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="903bd17667452d5332428142940930d4746b8bf2">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-query-full.0.25.9_237252eaafaa6bae86a39a33861f02b4a8c32e97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\47ba398f7c05c3d9cb108027952196f865d224dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd2d4d9446ae8f18dc4b2558c304080848718cf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\6101dee4bdc1f0eb3a070bf03ae1dba4d863cf99\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57419e2b61f3a06770573bf5ba230a97c5952d84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpmime-4.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_271bcda99325ef66dd5adb0836e7eadabdc3bf47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\28354121d40716a4c3e2a227e58c2b52756c1591\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ff5a12db6c5a41f2748f3df0d5ad0eae1b7e496\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\7fe8805daf24efcb18172e820afdfcd27111fa8b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_875ef2f82baf866601519fa37dca6faef2a288da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\7e9df4ecae750678eb00fe676cabb7d171f4aa79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19cb281a5f17a037d58701187dbc3e679c0d54a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\gson-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.2_f3dd346deb5dfcd96eba8e72840df71d84bdb4bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\f6ec0e6ce5dd8205c5a4477104e7389eb2fa60f3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf1e37324d8887bbe89dd2f3bfe9db799877fa63\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_ba5d5ebae70b1ab29e10cb820bb029390be0f1ef\classes.dex" />
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_ba5d5ebae70b1ab29e10cb820bb029390be0f1ef\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\7fc50bbf2c02b0ad89aff08cc453720f5fb905a3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="7ff77725723167163d69439e3fd077bd0899babf">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.14_ce78fc1f7aa02397a399a88965ce13f64dfad52c\classes.dex" />
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01198b07aa0e8c05f6ecdda2bf2b8820c039480c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.2\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b8c7a48477fb523186ecd2ca1ec90d3da071b26a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.0.2_32bcd2a10467f3e7ed7c350452f8d99716ab6bd7\classes.dex" />
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_feeeb1a560010b30fcfb832ead81ed4060b694f9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\gcm.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.2_ca0ad659fddff4b52469eea0eeaf7575ec452c4f\classes.dex" />
+        revision="25.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_612f9459e4823270ec5a272c7e11a327381e6946\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\5ad2ddc5c60e7b067d06b32b84ac35c72830f1ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3bf9db9e014d930223a152f0cc7bcd6e81ee339\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_65a4d37088e5f95ef98e30bdf32f97e52738c80b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\c5a9437deb2fa265f1925ec0d1ef0c1a36aa4fba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e93dec3ab76bf449da9b668851365d9c1376108\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\17fcd1a7cc76d1f26e0694065e6d70c17056d0b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d6b3176f525decf5f9d6e65f9c14451b4d74dfa\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_b46e499bd790e2fae32c6ed4b5809051e368faca\classes.dex" />
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_b46e499bd790e2fae32c6ed4b5809051e368faca\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpclient-4.1.3.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ffb9c251161965bd7198a81a614366f0b1b0900b\classes.dex" />
+        revision="25.0.1"
+        sha1="a260d242a42d8ccaec0c410084f9b62d47a7c2c5">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.1.3_4a83da4032f0a21a76b77d8c9645204291c12f4a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpcore-4.1.4.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c388d7ad5145cb9ea33a4f7941102cb0564cc4ca\classes.dex" />
+        revision="25.0.1"
+        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.1.4_2f99e628e2363549a43db82bcbe085b073ca7668\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_3713a9027b48890bcc7edb7a9687d0621e62f790\classes.dex" />
+        revision="25.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_8c4e90e8258c0f79f1851fa490dd5a2cb3e4dd05\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\eb2c7502b3cbc3fcc1af85c584b6e0f69fc39d25\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_2262999996e34b891dea6d4c4ceb5243115eee85\classes.dex" />
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7386ae1fb055c1f3a67c160c89ff97dce6438415\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\libs\gcm.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\1edea48fe25125bfe1d2c713f51aa3b471e14be2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_65e76d4b94bc85f4621bd7d19c8caa16d6d1197d\classes.dex" />
+        revision="25.0.1"
+        sha1="68fe8b73582fd84fc406cc9aeef057212783cf25">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b2a32e380763a668381a784fffa6a1f62c9fdbe\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\io.card\android-sdk\5.3.4\jars\classes.jar"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\android-query-full.0.25.9.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
+        sha1="903bd17667452d5332428142940930d4746b8bf2">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-query-full.0.25.9_237252eaafaa6bae86a39a33861f02b4a8c32e97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_687bd13343d32a855101e6b81bc3b34b07ac8510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b294306896b7ca94a86dd73ba61cb8390ce988bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74a51acb0622599559b38bdad0364f64f10a34d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\6101dee4bdc1f0eb3a070bf03ae1dba4d863cf99\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57419e2b61f3a06770573bf5ba230a97c5952d84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\de404fc02fce3a2554ab5b215461ef1e035be88b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9846d4e9b7d0ee049098b23db805d09b0863f0a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\28354121d40716a4c3e2a227e58c2b52756c1591\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ff5a12db6c5a41f2748f3df0d5ad0eae1b7e496\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b5e07f73b8ec0d8b78dcc005de517235b6ccff33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69a4295e9e06e3d1aafcad338f72c4f50547b889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\c8f93cc567850b52f88163fb11b0e0c83d407321\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3baa0caa5951c529f23e0b9c6f0d7856dc83023b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\0b775c320b7f36bd96a95ed9a99e7f234319359b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
         sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.card-android-sdk-5.3.4_dea2f6b2738ecd4b9dc6c6b7a0f555faffd876af\classes.dex" />
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ee5533824fc7b6fcc5388513ee98d611562b664\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\445667d87fef9118a345563333cd94811c0ca540\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_d4604a4c35f8836b695d47f6ffdbff05412f54a5\classes.dex" />
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d7c33d6e2a706e8fc798a2e3277808865066dd9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b468dcddc33f3c8267e10da7515486bc1d643db5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_327d6bd270d91e82c5a4878faf59dead10b291d9\classes.dex" />
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a20293c9dee294d1b082b979390783fbfd4b5645\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\7fe8805daf24efcb18172e820afdfcd27111fa8b\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
-        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24_01_2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.2_196d45c1b723a002ebe89b52f0b221e036af15f3\classes.dex" />
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_875ef2f82baf866601519fa37dca6faef2a288da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_ba5d5ebae70b1ab29e10cb820bb029390be0f1ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\0e5451f1f4425288b4ea5a1f5a24bf0e2b86bb45\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73e348e58c1ad5414303e92caba7cdb00c358d2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\68a0126a1d69bd2285ed1a326b25671ebee7634d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56fc1002a3a77ad182329125e55262c3c22e04f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\644a0bffb706e86384b8b1b9667cd7e461f00e1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44b05b3dd5881c2238f901cf45de4115c21a0b3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\1edea48fe25125bfe1d2c713f51aa3b471e14be2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="68fe8b73582fd84fc406cc9aeef057212783cf25">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b2a32e380763a668381a784fffa6a1f62c9fdbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_65a4d37088e5f95ef98e30bdf32f97e52738c80b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\gcm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_612f9459e4823270ec5a272c7e11a327381e6946\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\2a07cf99d6dc59b6b8256596426e11ad1991ed46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3b37cfa196a458d5337bdbf1f816a6ea3d15308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_8c4e90e8258c0f79f1851fa490dd5a2cb3e4dd05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\68596326f56ff67c246563e28819f2640a0947bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb649b08db9535e046d8b49e93dca14d188ee7df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\17fcd1a7cc76d1f26e0694065e6d70c17056d0b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d6b3176f525decf5f9d6e65f9c14451b4d74dfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_5f001d155fa6a05f90fc57da55e0f10ca13533c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_25bc4d76483c9efe50141a3686ecd7e272195e77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\54a13223e40d49c55a757e7f91d52583cd6a546e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99d7a0edf86a436be53c2cdb6330e58738f05657\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\88ec86e73be8f9cbfee48fc36f918f626283d957\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01a9f03f9d5c868cabc24d653cce482b00265cbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\de3609aa5b7e6a367ee0c9bc9e5a571464d3db92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a44e6d421f49aa6f396d258d6a0d293135004a0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_687bd13343d32a855101e6b81bc3b34b07ac8510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\a3b8e790fa6c46de15b8470da5459ae058128cb8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="824405f63810bfc46099d9951f0910c15a5b6f4f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5e08349eb2c01120af6fd78d23cf60c656ca230\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_b6388d9921f5aacf95013ad40167806692af8093\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\a425733542d7b516a9199ff8d456dbb5afd860c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_262c2a829c0778df90843b3cc70341a7d29a8164\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android-sdks\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_625f7563d1eea546d02e31c2c1ad97febe12d031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\60995dbd1a4d91d0153af3fa53b8acea6a1e8d9b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee07783aa59eefdeacc107abf472f45f60272302">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a56ea9f69bb9003a710dfda9ba0ae5183bed0fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\38fdcd4e628707dc8af5eef1db1ae051bd612a92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_59265f673bf37c987f555b42e42a046fa104907a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\c8f93cc567850b52f88163fb11b0e0c83d407321\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3baa0caa5951c529f23e0b9c6f0d7856dc83023b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\GoogleConversionTrackingSdk-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1b178dd030b222412a96435782c0dc24aac48a8f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\GoogleConversionTrackingSdk-2.2.4_6e2677778c9f41ecb1f4e594572703c39b4e0a81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_b46e499bd790e2fae32c6ed4b5809051e368faca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b5e07f73b8ec0d8b78dcc005de517235b6ccff33\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69a4295e9e06e3d1aafcad338f72c4f50547b889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\25ed0a212620338d944c5612344556d6c300fb4b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef281d12fc0ed679d784a8c816635a632827cec5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_579eb060b5cf08ee6c1d2fc3edc14ef56fd9e915\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\2a07cf99d6dc59b6b8256596426e11ad1991ed46\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3b37cfa196a458d5337bdbf1f816a6ea3d15308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\6cbe9f1324fd5948745ead480a0f59e7256dc87d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7ced3d63196ac793ff089368e3871a021475192e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b03d52f568c83faa55541f1915999a6147f3c032\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79bb7251d16ad6207d527d9b29ddc02b0d73d99e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b468dcddc33f3c8267e10da7515486bc1d643db5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a20293c9dee294d1b082b979390783fbfd4b5645\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\445667d87fef9118a345563333cd94811c0ca540\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d7c33d6e2a706e8fc798a2e3277808865066dd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\18060e0657b99e4d205688e071ac9724db07f512\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c943cbbc4ce9151f600afee66b463b10544881b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\68a0126a1d69bd2285ed1a326b25671ebee7634d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56fc1002a3a77ad182329125e55262c3c22e04f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\a3b8e790fa6c46de15b8470da5459ae058128cb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="824405f63810bfc46099d9951f0910c15a5b6f4f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5e08349eb2c01120af6fd78d23cf60c656ca230\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\38a088502120e539310be1c75fc6be72bb777472\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a92ffa5a3fc6734f88215e5315013575d3a62ee8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\88ec86e73be8f9cbfee48fc36f918f626283d957\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01a9f03f9d5c868cabc24d653cce482b00265cbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\68596326f56ff67c246563e28819f2640a0947bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb649b08db9535e046d8b49e93dca14d188ee7df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\0e5451f1f4425288b4ea5a1f5a24bf0e2b86bb45\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73e348e58c1ad5414303e92caba7cdb00c358d2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\644a0bffb706e86384b8b1b9667cd7e461f00e1f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44b05b3dd5881c2238f901cf45de4115c21a0b3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\0b775c320b7f36bd96a95ed9a99e7f234319359b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ee5533824fc7b6fcc5388513ee98d611562b664\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpcore-4.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.1.4_2f99e628e2363549a43db82bcbe085b073ca7668\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_56666c4b0287fa414a8a039aad0ec375e7365760\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_5f001d155fa6a05f90fc57da55e0f10ca13533c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.10.2_4584600aaaea284e37671d14dee90395dd569533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\60995dbd1a4d91d0153af3fa53b8acea6a1e8d9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee07783aa59eefdeacc107abf472f45f60272302">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a56ea9f69bb9003a710dfda9ba0ae5183bed0fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\637e2c48523770dd904e2b28add0049f06344c6f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b5baadb3f0cc2767621a557f3a7db18b566118a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\54a13223e40d49c55a757e7f91d52583cd6a546e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99d7a0edf86a436be53c2cdb6330e58738f05657\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\16657ca5c6f2f4e794624c1282383fdb612c6200\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0486298b986812153fe066b54ff98231f926e24a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\85b51cde050b55158d9d11fb7ee53107824ce2c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2ee64fe1bc5383ea3ffd4b5dad9968b170ef4b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\f6ec0e6ce5dd8205c5a4477104e7389eb2fa60f3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf1e37324d8887bbe89dd2f3bfe9db799877fa63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\88313e6f50406380ba2716b2fcd23ab1ef511059\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58a1ef23a94385c714fff51a3a9664880a3b3b72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\ea4b974234e3e18e2f009b07f077dba7108dbd18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1dd16a49c59c4104c41c9ff3dee2d04b5a3a0140\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\18060e0657b99e4d205688e071ac9724db07f512\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c943cbbc4ce9151f600afee66b463b10544881b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\ee01701b443a10d95c326282c83bad0f1d9b6d01\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7e655e4fd5d01177dfec3daadd938ce2d1f9b03">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_940dafb4fc993491d47cfbb966ff1f1800cf068c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_579eb060b5cf08ee6c1d2fc3edc14ef56fd9e915\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_cddeabeb9fc07300b836a32f8aca99f563990a6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_953c7749e5da5e57d80ab4eac807a1ecac33177b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.2_f3dd346deb5dfcd96eba8e72840df71d84bdb4bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_271bcda99325ef66dd5adb0836e7eadabdc3bf47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\ee01701b443a10d95c326282c83bad0f1d9b6d01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7e655e4fd5d01177dfec3daadd938ce2d1f9b03">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_940dafb4fc993491d47cfbb966ff1f1800cf068c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_953c7749e5da5e57d80ab4eac807a1ecac33177b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\GoogleConversionTrackingSdk-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1b178dd030b222412a96435782c0dc24aac48a8f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\GoogleConversionTrackingSdk-2.2.4_6e2677778c9f41ecb1f4e594572703c39b4e0a81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\47ba398f7c05c3d9cb108027952196f865d224dc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd2d4d9446ae8f18dc4b2558c304080848718cf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\38a088502120e539310be1c75fc6be72bb777472\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a92ffa5a3fc6734f88215e5315013575d3a62ee8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b03d52f568c83faa55541f1915999a6147f3c032\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79bb7251d16ad6207d527d9b29ddc02b0d73d99e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\b8c7a48477fb523186ecd2ca1ec90d3da071b26a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_feeeb1a560010b30fcfb832ead81ed4060b694f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\4f1b2537d482282219e16333db6c8b73336cc50b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8c54d615203edae90976e9aa8f665fc5426bb3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_56666c4b0287fa414a8a039aad0ec375e7365760\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\c5a9437deb2fa265f1925ec0d1ef0c1a36aa4fba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e93dec3ab76bf449da9b668851365d9c1376108\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sagar Sojitra\.android\build-cache\76ab800ed1478f38e8587280238248b402ecf070\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\Client-Docs\App_Folder\DoctorPocket_Jeff\DoctorPocket_24Jun2017\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57d3f33569031132de8919efc6078f21d4acf280\classes.dex" />
     </item>
 
 </items>
